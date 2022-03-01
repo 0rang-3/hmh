@@ -1,7 +1,7 @@
 import discord
 import os
 from discord.ext import commands, tasks
-from keep_alive import keep_alive
+#from keep_alive import keep_alive
 
 client = discord.Client()
 client = commands.Bot(command_prefix = '$')
@@ -310,6 +310,6 @@ async def farts_exist(ctx, member : discord.Member=None):
 
 
 
-keep_alive()
-token = os.environ.get("DISCORD_TOKEN")
+#keep_alive()
+token = "ODA5OTAyNTE3MDc2MDk5MDky.YCb2fw.zMyNDYD7A4KVNRDevxE03wAwn2Q"
 client.run(token)
